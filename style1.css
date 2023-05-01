@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Main Stylin */
+html , body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes */
+
+.bg-dark {
+    background-color: #E0FFFF;
+    shape-outside: ;
+   
+}
+
+.m-2 {margin: 2rem;}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 8rem;
+    color: #2F4F4F;
+    box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#navbar  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  
+}
+#navbar  ul a {
+    padding: 1rem .75rem;
+    color: #2F4F4F;
+  }
+  
+#navbar  ul li a:hover {
+  background-color: #00008B;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #FFFFFF !important;
+  pa
+  }
+
+#navbar  a {
+    color: #00008B;
+  }
+
+  .current{
+      color: #00008B  !important; 
+      
+  }
+
+  #showcase {
+      background: #87CEEB url(./night-.jpg) no-repeat center center/cover;
+  }
